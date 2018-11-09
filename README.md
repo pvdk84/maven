@@ -8,7 +8,7 @@ Download and install maven from https://maven.apache.org/download.cgi.
 
 You then need to set your home variables, so maven knows where it can drop and get its stuff.
 
-To do this, first open your terminal and type "vim ~/.bash_profile". This takes you to the environment where you can set your home variables. 
+To do this, first open your terminal and type "vim ~/.bash_profile". This takes you to the bash environment where you can set your home variables. 
 
 Then type "i" for insertion mode, so that you can type stuff.
 
@@ -24,7 +24,7 @@ Restart the terminal, and type "mvn -version" to check whether it worked. You sh
 
 In the terminal, go to the root directory where you want your new maven project, and type the following: 
 
-"mvn archetype:generate -DgroupId=[groupId] -DartifactId=[artifactId]`usually last part of package] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false"
+"mvn archetype:generate -DgroupId=[groupId] -DartifactId=[artifactId] -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false"
 
 The "groupId" is the name of the package for your maven project (e.g., "com.somecompany.someprojectname") and the "artifactId" is then name of the project, usually the last part of the packagename (in this case, "someprojectname").
 
